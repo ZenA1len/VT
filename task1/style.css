@@ -9,6 +9,12 @@ ul{
     line-height: 150%;
     font-size: 120%;
     font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-size: 100%;
+    background-color: bisque;
 }
 .img1{
     padding: 10px;
@@ -20,9 +26,31 @@ footer{
     right: 0;
     bottom: 0;
     z-index: 10;
-    padding-top: 10px;
-    padding-bottom: 10px;
     background-color: blueviolet;
     font-size: larger;
     color: white;
+}
+a:active{ text-decoration: none; }
+a:link{ text-decoration: none; }
+a:visited{ text-decoration: none; color: #000; }
+a:hover{ text-decoration: none; }
+main{
+    margin-bottom: 40px;
+}
+ol{
+    display: flex;
+    background-color: rgb(41, 38, 61);
+}
+.komp{
+    margin: 30px;
+    color: blanchedalmond;
+}
+.img2{
+    display: flex;
+}
+.imgs{
+    margin: 30px;
+}
+form{
+    flex-direction: column;
 }
