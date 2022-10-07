@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" media="screen and (min-width:1024px)">
+    <link rel="stylesheet" href="style2.css" media="screen and (max-width:1023px)">
     <title>Task_1</title>
 </head>
 <body>
@@ -21,7 +22,17 @@
         <section>
             <h1>Доктор Ливси</h1>
             <p>Запомните, слово "ром" и слово "смерть" для вас означает одно и то же!</p>
-            <img src="img/2.jpg" width="300" height="150"> <img src="img/livsi.jpg" width="300" height="150"> <img src="img/3.jpg" width="300" height="150">
+            <div class="images">
+                <figure>
+                    <img src="img/2.jpg" width="300" height="150">
+                </figure>
+                <figure>
+                    <img src="img/livsi.jpg" width="300" height="150">
+                </figure>
+                <figure>
+                    <img src="img/3.jpg" width="300" height="150">
+                </figure>
+            </div>
             <p>Компетенции</p>
             <ol>
                 <li class="komp">Доктор</li>
